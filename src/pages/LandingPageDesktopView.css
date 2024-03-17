@@ -1,0 +1,164 @@
+.intersect-icon {
+  align-self: stretch;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  height: 1px;
+  flex-shrink: 0;
+}
+.separator {
+  align-self: stretch;
+  background-color: var(--neutral-color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-141xl);
+}
+.how-stage-1 {
+  position: relative;
+  line-height: 120%;
+}
+.how-stage-1-works-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.download-application {
+  margin-bottom: 0;
+}
+.stretch {
+  font-family: var(--font-inter);
+}
+.download-application-plastic-w {
+  margin: 0;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.download-application-plastic-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.download-app {
+  position: relative;
+  line-height: 140%;
+}
+.arrowdownright-icon {
+  width: 34px;
+  position: relative;
+  height: 34px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button {
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 0 var(--br-13xl) 0 var(--br-13xl);
+  background-color: var(--color-springgreen);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xl) var(--padding-29xl);
+  gap: var(--gap-base);
+  font-size: var(--font-size-5xl);
+  color: #010101;
+  font-family: var(--font-playfair-display-sc);
+}
+.download-application-plastic-w-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frame-child {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 0 var(--br-101xl) 0 var(--br-101xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-wrapper {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-45xl) 0 0;
+}
+.frame-item {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-101xl) 0 var(--br-101xl) 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-container,
+.frame-group {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+}
+.frame-container {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-45xl);
+}
+.frame-group {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.frame-parent,
+.how-stage-2-works {
+  align-self: stretch;
+  display: flex;
+  gap: var(--gap-61xl);
+}
+.frame-parent {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+}
+.how-stage-2-works {
+  background-color: var(--neutral-color-white);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl);
+}
+.two-target-industries {
+  margin: 0;
+}
+.specialist-car-parts-vertical {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.landing-page-desktop-view {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--neutral-color-black);
+  font-family: var(--font-playfair-display);
+}

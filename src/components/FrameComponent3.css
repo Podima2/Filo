@@ -1,0 +1,102 @@
+.how-stage-2 {
+  position: relative;
+  line-height: 120%;
+}
+.how-stage-2-works-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+.collection-weigh-in {
+  margin-bottom: 0;
+}
+.plastic-waste-collection-colle {
+  margin: 0;
+  font-family: inherit;
+  font-size: inherit;
+  padding-left: var(--padding-8xl);
+}
+.plastic-waste-collection-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.we-make-money {
+  margin: 0;
+}
+.plastic-waste-collection-colle-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frame-child5 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: 0 var(--br-101xl) 0 var(--br-101xl);
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-wrapper4 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-45xl) 0 0;
+}
+.frame-child6 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-101xl) 0 var(--br-101xl) 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: cover;
+}
+.frame-wrapper5 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-45xl);
+}
+.frame-parent3,
+.frame-parent4,
+.how-stage-2-works1 {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+}
+.frame-parent4 {
+  flex: 1;
+  gap: var(--gap-5xl);
+}
+.frame-parent3,
+.how-stage-2-works1 {
+  gap: var(--gap-61xl);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  font-family: var(--font-inter);
+}
+.how-stage-2-works1 {
+  background-color: var(--neutral-color-white);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl);
+  text-align: center;
+  font-size: var(--font-size-17xl);
+  color: var(--neutral-color-black);
+  font-family: var(--font-playfair-display);
+}

@@ -1,0 +1,83 @@
+.frame-child9,
+.user-icon {
+  position: relative;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.frame-child9 {
+  align-self: stretch;
+  border-radius: 0 var(--br-61xl) 0 var(--br-61xl);
+  max-width: 100%;
+  height: 320px;
+  object-fit: cover;
+}
+.user-icon {
+  width: 17px;
+  height: 17px;
+}
+.john-doe {
+  position: relative;
+  letter-spacing: 0.02em;
+  line-height: 120%;
+}
+.frame-parent7,
+.user-parent {
+  display: flex;
+  flex-direction: row;
+}
+.user-parent {
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frame-parent7 {
+  align-self: stretch;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.cambridge-united-kingdom {
+  align-self: stretch;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  font-family: var(--font-plus-jakarta-sans);
+}
+.cambridge-united-kingdom,
+.view-details {
+  position: relative;
+  line-height: 140%;
+}
+.caretright-icon {
+  width: 16px;
+  position: relative;
+  height: 16px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.button3 {
+  align-self: stretch;
+  border-radius: var(--br-5xs);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 var(--padding-base);
+  gap: var(--gap-5xs);
+  text-align: center;
+  font-size: var(--font-size-base);
+}
+.rectangle-group {
+  flex: 1;
+  border-radius: 0 var(--br-77xl) 0 var(--br-21xl);
+  background-color: var(--neutral-color-white);
+  border: 1px solid var(--neutral-color-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-base);
+  gap: var(--gap-base);
+  text-align: left;
+  font-size: var(--font-size-sm);
+  color: var(--neutral-color-black);
+  font-family: var(--font-inter);
+}

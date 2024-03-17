@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,400;1,400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display+SC:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
+}
+:root {
+  /* fonts */
+  --font-poppins: Poppins;
+  --font-playfair-display: "Playfair Display";
+  --font-inter: Inter;
+  --font-plus-jakarta-sans: "Plus Jakarta Sans";
+  --font-playfair-display-sc: "Playfair Display SC";
+
+  /* font sizes */
+  --font-size-xl: 20px;
+  --font-size-9xl: 28px;
+  --font-size-base: 16px;
+  --font-size-45xl: 64px;
+  --font-size-5xl: 24px;
+  --font-size-sm: 14px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --neutral-color-black: #282a3a;
+  --color-gray-100: rgba(255, 255, 255, 0.4);
+  --color-gray-200: rgba(255, 255, 255, 0.08);
+  --brand-color-brown-coffee: #6d1600;
+  --neutral-color-white: #fff;
+  --color-black: #000;
+  --neutral-color-grey: #d9d9d9;
+  --color-springgreen: #5fff5c;
+
+  /* Gaps */
+  --gap-61xl: 80px;
+  --gap-21xl: 40px;
+  --gap-5xl: 24px;
+  --gap-5xs: 8px;
+  --gap-base: 16px;
+  --gap-13xl: 32px;
+  --gap-22xl: 41px;
+  --gap-xs: 12px;
+  --gap-12xl: 31px;
+
+  /* Paddings */
+  --padding-61xl: 80px;
+  --padding-5xs: 8px;
+  --padding-5xl: 24px;
+  --padding-base: 16px;
+  --padding-45xl: 64px;
+  --padding-141xl: 160px;
+  --padding-8xl: 27px;
+  --padding-29xl: 48px;
+  --padding-31xl: 50px;
+  --padding-135xl: 154px;
+  --padding-78xl: 97px;
+  --padding-xs: 12px;
+  --padding-196xl: 215px;
+  --padding-174xl: 193px;
+
+  /* Border radiuses */
+  --br-base: 16px;
+  --br-5xs: 8px;
+  --br-77xl: 96px;
+  --br-21xl: 40px;
+  --br-61xl: 80px;
+  --br-101xl: 120px;
+  --br-13xl: 32px;
+}

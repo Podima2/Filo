@@ -1,0 +1,47 @@
+.filo1 {
+  cursor: pointer;
+  text-decoration: none;
+  position: relative;
+  line-height: 120%;
+  font-weight: 500;
+  color: inherit;
+  text-shadow: 1px 0 0#5eff5b, 0 1px 0#5eff5b, -1px 0 0#5eff5b, 0-1px 0#5eff5b;
+}
+.logo1 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.logo2-icon1 {
+  width: 85.5px;
+  position: relative;
+  height: 69.7px;
+}
+.how-it-works1 {
+  position: relative;
+  line-height: 120%;
+}
+.how-it-works-group,
+.logo-group {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0 var(--padding-78xl);
+  gap: var(--gap-12xl);
+  font-size: var(--font-size-xl);
+  color: var(--neutral-color-black);
+  font-family: var(--font-inter);
+}
+.logo-group {
+  align-self: stretch;
+  background-color: var(--neutral-color-white);
+  justify-content: flex-start;
+  padding: var(--padding-5xl) var(--padding-135xl);
+  gap: var(--gap-5xs);
+  text-align: left;
+  font-size: var(--font-size-45xl);
+  color: var(--color-black);
+  font-family: var(--font-playfair-display);
+}

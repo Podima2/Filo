@@ -1,0 +1,99 @@
+.text,
+.what-plastic-we1 {
+  position: relative;
+  line-height: 120%;
+}
+.text {
+  opacity: 0.56;
+}
+.what-plastic-we1 {
+  font-size: var(--font-size-17xl);
+  font-family: var(--font-playfair-display);
+  text-align: center;
+}
+.text-parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: var(--gap-5xs);
+}
+.frame-child7 {
+  align-self: stretch;
+  border-radius: 0 var(--br-101xl) 0 var(--br-101xl);
+  max-width: 100%;
+  overflow: hidden;
+  height: 280px;
+  flex-shrink: 0;
+  object-fit: cover;
+}
+.frame-wrapper6 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-45xl) 0 0;
+}
+.frame-child8 {
+  width: 320px;
+  border-radius: var(--br-101xl) 0 var(--br-101xl) 0;
+  height: 280px;
+  object-fit: cover;
+}
+.frame-parent6,
+.frame-wrapper7 {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+}
+.frame-wrapper7 {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-45xl);
+}
+.frame-parent6 {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-5xl);
+}
+.hdpe-high-density {
+  margin: 0;
+}
+.hdpe-high-density-container {
+  align-self: stretch;
+  position: relative;
+  line-height: 160%;
+}
+.hdpe-high-density-polyethylen-parent {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+}
+.frame-parent5,
+.what-plastic-we-accept {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: var(--gap-61xl);
+  font-size: var(--font-size-xl);
+}
+.what-plastic-we-accept {
+  background-color: var(--neutral-color-white);
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-61xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--neutral-color-black);
+  font-family: var(--font-inter);
+}
